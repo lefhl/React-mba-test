@@ -1,0 +1,41 @@
+.main {
+  padding-top: 70px;
+  margin-bottom: 171px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 90px;
+  }
+
+  &__programs {
+    margin-bottom: 150px;
+  }
+
+  &__infos {
+    display: grid;
+    grid-gap: 24px 30px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 70px;
+    padding-top: 28px;
+
+    &__title {
+      text-align: left;
+      margin-bottom: 34px;
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    &__programs {
+      margin-bottom: 0;
+    }
+
+    &__infos {
+      display: grid;
+      grid-gap: 24px 30px;
+      grid-template-columns: 1fr;
+    }
+  }
+}

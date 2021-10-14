@@ -1,0 +1,19 @@
+.bulletList {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 20px;
+
+  &__item {
+    font-weight: 300;
+    margin-bottom: 10px;
+    &::before {
+      content: "\2022";
+      display: inline-block;
+      color: var(--primary-color);
+      width: 1em;
+      margin-left: -1em;
+      font-size: 1.2em;
+      line-height: 1;
+    }
+  }
+}

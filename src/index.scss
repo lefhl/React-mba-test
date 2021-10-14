@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Styrene A Web";
+  src: url("./assets/fonts/StyreneAWeb-Regular.woff2") format("woff2"),
+    url("./assets/fonts/StyreneAWeb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Styrene A Web";
+  src: url("./assets/fonts/StyreneAWeb-Light.woff2") format("woff2"),
+    url("./assets/fonts/StyreneAWeb-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Styrene A Web";
+  src: url("./assets/fonts/StyreneAWeb-Bold.woff2") format("woff2"),
+    url("./assets/fonts/StyreneAWeb-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Styrene A Web Med";
+  src: url("./assets/fonts/StyreneAWeb-Medium.woff2") format("woff2"),
+    url("./assets/fonts/StyreneAWeb-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  // colors
+  --primary-color: #ff3535;
+  --dark-color: #2d2c2a;
+
+  // sizes
+  --container-width: 1290px;
+  --container-padding: 15px;
+}
+
+body {
+  font-family: "Styrene A Web", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 36px;
+}

@@ -1,0 +1,31 @@
+.accordion {
+  &__title {
+    width: 100%;
+    padding: 15px 24px;
+    font-size: 18px;
+    color: #262626;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    border: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    img {
+      margin-right: 27px;
+      max-width: 18px;
+    }
+
+    &_active {
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+  }
+
+  &__body {
+    padding-top: 17px;
+  }
+}
